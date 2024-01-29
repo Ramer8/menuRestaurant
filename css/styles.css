@@ -48,7 +48,7 @@ body {
 }
 
 .hot {
-    height: 35em;
+    height: 20em;
     background-image: url('/Proyectos/MenuRestaurant/img/cafe.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -103,4 +103,14 @@ a {
 .spacePreheading {
     height: 2em;
     width: 90%;
+}
+
+.quitSpace {
+    padding-bottom: 5em;
+}
+h3{
+    padding-top: 3em;
+    color: black;
+    display: flex;
+       
 }
