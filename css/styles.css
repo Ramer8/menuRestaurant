@@ -55,6 +55,22 @@ body {
     background-size: 100%;
     color: white;
 }
+.bannerHome {
+    height: 20em;
+    background-image: url('/Proyectos/MenuRestaurant/img/14.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    color: white;
+}
+.bannerContacto {
+    height: 20em;
+    background-image: url('/Proyectos/MenuRestaurant/img/33.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    color: white;
+}
 ♡FoodLo
 #main {
     height: 20em;
@@ -113,4 +129,12 @@ h3{
     color: black;
     display: flex;
        
+}
+.socialLinks {
+    padding-left: 1em;
+    display: flex;
+        flex-direction: row;
+        gap: 1em;
+        /* justify-content: center;
+        align-items: center; */
 }
