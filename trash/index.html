@@ -1,3 +1,60 @@
+<nav class="navbar navbar-expand-lg navbar-togglable fixed-top navbar-dark">
+  <div class="container">
+    <!-- Navbar brand (mobile) -->
+    <a class="navbar-brand d-lg-none" href="./index.html">♡FoodLo</a>
+
+    <!-- Navbar toggler -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarCollapse"
+      aria-controls="navbarCollapse"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar collapse -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <!-- Navbar nav -->
+      <ul class="navbar-nav hot2">
+        <li class="nav-item">
+          <a class="nav-link" href="./about-us.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./reservation.html">Reservation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./reservation.html">Contacto</a>
+        </li>
+      </ul>
+
+      <!-- Navbar brand -->
+      <!-- <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="./index.html">
+           ♡FoodLo
+          </a> -->
+
+      <!-- Navbar nav -->
+      <!-- <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " href="./news-and-events.html">News &amp; Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./contact-us.html">Contact</a>
+            </li>
+          </ul> -->
+    </div>
+  </div>
+</nav>
+================
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,9 +70,8 @@
     />
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
-  
   <body>
- <nav class="navbar navbar-expand-lg ">
+ <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">♡FoodLo</a>
         <button
@@ -31,9 +87,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <div class="space"></div>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav" style="border-radius: 3em;
+/* background-color:darkslategray;" */
+>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a class="nav-link active" aria-current="page" href="#" style="color: white; ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -126,25 +184,57 @@
     </nav> 
    
    <div class="container-fluid altura">
-    <div class="row h-35">
+    <div class="row h-100">
       <div class="hot">
 <div class="col-12 col-md-8 col-lg-6 text-center">
-<div class="spacePreheading"></div>
-              <header id="main">
+<div class="space"></div>
+              <!-- Preheading -->
+              <h6 class="text-xs text-white-75">
+                <span class="text-primary">Café</span> / Restaurant
+              </h6>
+
+              <!-- Heading -->
+              <h1 class="display-2 text-white mb-4">
+               ♡FoodLo
+              </h1>
+
+              <!-- Subheading -->
+              <p class="text-center text-white-75 mb-7">
+                A unique café located in the heart of Los Angeles. Always fresh coffee and biscuits. Open for indoor dining and to-go orders.
+              </p>
+
+              <!-- Button -->
+              <a class="btn btn-outline-primary text-white text-primary-hover mb-7 mb-md-0" href="#reservation">
+                Make reservation
+              </a>
+
+            </div>
+
+        <!-- <header id="main">
           <h2>Menú</h2>
           <h4>Categorias</h4>
          <div id="link"> <a href="index.html">Cafe</a></div>
       <div id="link"> <a href=".html">Postres</a></div>
       <div id="link"> <a href=".html">Bebidas</a></div>
       <div id="link"> <a href=".html">Infusiones</a></div>
-        </header>
-            </div>
+      
+        </header> -->
+        
       </div>
-  
+   
+
+      
+      <!-- <div class="col-12 col-md-6 col-lg-3 bg-danger hot">A</div>
+      <div class="col-12 col-md-6 col-lg-3 bg-danger-subtle hot">B</div>
+      <div class="col-12 col-md-6 col-lg-3 bg-warning hot">C</div>
+      <div class="col-12 col-md-6 col-lg-3 bg-warning-subtle hot">D</div>
+      <div class="col-12 col-md-6 col-lg-3 bg-danger hot">A</div> -->
+      
     </div>
     <div class="container-fluid altura">
 
      <div class="row">
+
                   <div class="col-12 col-md-6">
                     <div class="py-3 border-bottom">
                       <div class="row">
@@ -152,7 +242,7 @@
 
                           <!-- Image -->
                           <div class="ratio ratio-1x1">
-                            <img class="object-fit-cover" src="./img/cafe/hamburguesas_01.jpg" alt="...">
+                            <img class="object-fit-cover" src="assets/img/26.jpg" alt="...">
                           </div>
 
                         </div>
@@ -185,7 +275,7 @@
 
                           <!-- Image -->
                           <div class="ratio ratio-1x1">
-                            <img class="object-fit-cover" src="./img/cafe/hamburguesas_02.jpg" alt="...">
+                            <img class="object-fit-cover" src="assets/img/30.jpg" alt="...">
                           </div>
 
                         </div>
@@ -218,7 +308,7 @@
 
                           <!-- Image -->
                           <div class="ratio ratio-1x1">
-                            <img class="object-fit-cover" src="./img/cafe/hamburguesas_03.jpg" alt="...">
+                            <img class="object-fit-cover" src="assets/img/29.jpg" alt="...">
                           </div>
 
                         </div>
@@ -251,7 +341,7 @@
 
                           <!-- Image -->
                           <div class="ratio ratio-1x1">
-                            <img class="object-fit-cover" src="./img/cafe/hamburguesas_04.jpg" alt="...">
+                            <img class="object-fit-cover" src="assets/img/27.jpg" alt="...">
                           </div>
 
                         </div>
@@ -284,7 +374,7 @@
 
                           <!-- Image -->
                           <div class="ratio ratio-1x1">
-                            <img class="object-fit-cover" src="./img/cafe/hamburguesas_05.jpg" alt="...">
+                            <img class="object-fit-cover" src="assets/img/28.jpg" alt="...">
                           </div>
 
                         </div>
@@ -317,7 +407,7 @@
 
                           <!-- Image -->
                           <div class="ratio ratio-1x1">
-                            <img class="object-fit-cover" src="./img/cafe/hamburguesas_06.jpg" alt="...">
+                            <img class="object-fit-cover" src="assets/img/31.jpg" alt="...">
                           </div>
 
                         </div>
@@ -344,7 +434,7 @@
                     </div>
                   </div>
                 </div>
-
+   
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
