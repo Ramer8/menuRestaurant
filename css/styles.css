@@ -126,51 +126,59 @@ h3 {
   color: black;
   text-shadow: white 1px 0 10px;
 }
-.titleMenu{
-    padding-top: 0em;
-    color: black;
-    text-shadow: white 1px 0 10px;
+.titleMenu {
+  padding-top: 0em;
+  color: black;
+  text-shadow: white 1px 0 10px;
 }
 
 .socialLinks {
-  padding-left: 2em;
+    padding-top: 1em;
+  
   display: flex;
   flex-direction: row;
   gap: 2em;
 }
 .imageAboutUs {
-  width: 20em;
-align-items: center;
-    justify-content: center;
-    display: flex;
+  width: 24em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .imageAboutUsBottom {
-   margin-inline-start:0em;
-  width: 18.5em;
-align-items: center;
-    justify-content: center;
-    display: flex;
+  margin-inline-start: 0em;
+  width: 22.5em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .paragraphAboutUs {
   font-weight: 200;
   font-size: medium;
 }
-.object-fit-cover{
-    border-radius: .5em;
+.object-fit-cover {
+  border-radius: 0.5em;
 }
-.contentHome{
-    height: 40em;
-    display: flex;
-    align-items: left;
-    justify-content: start;
-    flex-direction: row;
+.contentHome {
+  height: 40em;
+  display: flex;
+  align-items: left;
+  justify-content: start;
+  flex-direction: row;
 }
 .spaceAboutUs {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-left: .5em;
-    width: 15em;
-    height: 30em;
-    gap: 2em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 0.5em;
+  width: 20em;
+  height: 30em;
+  gap: 2em;
+}
+.copyright{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
