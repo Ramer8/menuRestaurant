@@ -44,9 +44,9 @@ body {
   height: 20em;
   background-image: url("../img/cafe.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment:fixed;
   background-size: 100%;
-  color: white;
+  /* color: white; */
 }
 .bannerHome {
   height: 20em;
@@ -124,6 +124,7 @@ a:hover {
 
 .quitSpace {
   padding-top: 2em;
+  margin: 0.5em;
 }
 h3 {
   padding-left: 0.5em;
@@ -139,45 +140,57 @@ h3 {
 
 .socialLinks {
   padding-top: 1em;
-
   display: flex;
   flex-direction: row;
   gap: 2em;
 }
-.imageAboutUs {
+.container-fluid {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+.col-sm-6,
+.row h-20 {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+.firstColumnText {
+  align-items:center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.imageAboutUsTop {
   width: 24em;
+  padding: 0 0 0 0;
   align-items: center;
   justify-content: center;
   display: flex;
 }
 .imageAboutUsBottom {
-  width: 22.5em;
+  padding: 0 0 0 0;
+  width: 24em;
   align-items: center;
   justify-content: center;
   display: flex;
 }
-.paragraphAboutUs {
+
+.paragraphBesideImage {
+  align-items: center;
+  justify-content: center;
+  width: 24em;
   font-weight: 200;
   font-size: medium;
 }
 .object-fit-cover {
   border-radius: 0.5em;
 }
-.contentHome {
-  height: 40em;
-  display: flex;
-  align-items: left;
-  justify-content: start;
-  flex-direction: row;
-}
+
 .spaceAboutUs {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-left: 2em;
-  width: 20em;
+  width: 24em;
   height: 30em;
-  gap: 2em;
 }
 .copyright {
   justify-content: center;
@@ -185,4 +198,10 @@ h3 {
   display: flex;
   padding-top: 1em;
   padding-bottom: 2em;
+}
+.marginProductList{
+   padding-inline: 1em 1em;
+}
+.contactBox {
+    padding-inline: 1em 1em;
 }
