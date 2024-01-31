@@ -1,19 +1,9 @@
-Hacer pagina con formulario para login o no y para booking.
-Puede poner `opacity:.8` en alguna imagen
-corregir padding precios en mobile view
-
-Readme
-
-### Bienvenidos
-
-## `<div> hola</div>`
-
 # Welcome to my frontend HTML app
 
 <details>
-  <summary>Contenido 📝</summary>
+  <summary>Content 📝</summary>
   <ol>
-    <li><a href="#objetivo-🎯">Objetive</a></li>
+    <li><a href="#Objetive-🎯">Objetive</a></li>
     <li><a href="#sobre-el-proyecto-🔎">About to the proyect</a></li>
     <li><a href="#deploy-🚀">Deploy</a></li>
     <li><a href="#stack">Stack</a></li>
@@ -74,18 +64,17 @@ It is a simple web page menu about a coffe shop/
 ## View
 
 Landing/Home
-<img src="./images/landing.png">  
+<img src="./img/view/landing.png">  
 Menu
-<img src="./images/register.png">
-About us
-<img src="./images/login.png">
-///
-Profile
-<img src="./images/profile.png">
-Routines
-<img src="./images/routines.png">
-Exercices
-<img src="./images/exercises.png">
+<img src="./img/view/menu.png">
+Contact
+<img src="./img/view/contact.png">
+Landing/Home Mobile
+<img src="./img/view/landingMobile.png">
+Menu Mobile
+<img src="./img/view/menuMobile.png">
+Contact Mobile
+<img src="./img/view/contactMobile.png">
 
 ## Future features
 
@@ -132,14 +121,14 @@ To achieve my goal I have collected information from:
 ```js
 const developer = "Ramiro Poblete"
 
-console.log("Developed by: GeekHub + Ramiro Poblete)
+console.log("Developed by: Ramiro Poblete + GeekHub")
 ```
 
 ## Acknowledgments:
 
 I thank my colleagues for their time dedicated to this project:
 
-- **Carlos**  
+- **Carlos**
   <a href="https://github.com/Dave86dev" target="_blank"><img src="https://img.shields.io/badge/github-24292F?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 
 ## Contact
