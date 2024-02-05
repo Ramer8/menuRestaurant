@@ -46,7 +46,6 @@ body {
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: 100%;
-  /* color: white; */
 }
 .bannerHome {
   height: 20em;
@@ -72,8 +71,8 @@ body {
   height: 15em;
   width: 60%;
   padding-left: 1em;
-  padding-bottom: 2em;
-  gap: 0.5em;
+  padding-bottom: 1em;
+  gap: 1em;
   flex-direction: column;
   display: flex;
   justify-content: flex-end;
@@ -82,12 +81,14 @@ body {
 }
 h4 {
   font-weight: 200;
+text-shadow: white 1px 0 10px;
 }
 a {
   text-decoration: none;
   color: black;
   font-size: large;
   font-weight: 600;
+  padding-top: .5em;
   padding: 1.5em;
   text-shadow: white 1px 0 10px;
 }

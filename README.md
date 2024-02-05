@@ -1,21 +1,23 @@
-# Welcome to my frontend HTML app
+# Coffee shop website and HTML menu
+
+2️⃣ It's the first Project of the Full Stack Development Bootcamp with Geekshubs Academy. Based only on HTML, CSS and BOOTSTRAP.
 
 <details>
   <summary>Content 📝</summary>
   <ol>
-    <li><a href="#Objetive-🎯">Objetive</a></li>
-    <li><a href="#sobre-el-proyecto-🔎">About to the proyect</a></li>
+    <li><a href="#objetive-🎯 ">Objetive</a></li>
+    <li><a href="#about-a-proyect-🔎-🔎">About to the proyect</a></li>
     <li><a href="#deploy-🚀">Deploy</a></li>
     <li><a href="#stack">Stack</a></li>
-    <li><a href="#instalación-en-local">Installation</a></li>
-    <li><a href="#vistas">View</a></li>
-    <li><a href="#futuras-funcionalidades">Future features</a></li>
-    <li><a href="#contribuciones">Contributions</a></li>
-    <li><a href="#licencia">Licence</a></li>
-    <li><a href="#webgrafia">Webgraphy</a></li>
-    <li><a href="#desarrollo">Development</a></li>
-    <li><a href="#agradecimientos">Acknowledgments</a></li>
-    <li><a href="#contacto">Contact</a></li>
+    <li><a href="#local-installation">Installation</a></li>
+    <li><a href="#view">View</a></li>
+    <li><a href="#future-features">Future features</a></li>
+    <li><a href="#contributions">Contributions</a></li>
+    <li><a href="#license">Licence</a></li>
+    <li><a href="#webgraphy">Webgraphy</a></li>
+    <li><a href="#development">Development</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -25,7 +27,7 @@ This proyect it's development in HTML, don't need any configuration.
 
 ## About a proyect 🔎
 
-It is a simple web page menu about a coffe shop/
+It is a simple web page menu about a coffe shop, the desing its responsive to use on cell phon, computer or tablet.
 
 ## Deploy 🚀
 
@@ -128,8 +130,8 @@ console.log("Developed by: Ramiro Poblete + GeekHub")
 
 I thank my colleagues for their time dedicated to this project:
 
-- **Carlos**
-  <a href="https://github.com/Dave86dev" target="_blank"><img src="https://img.shields.io/badge/github-24292F?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+**Carlos**
+<a href="https://github.com/Dave86dev" target="_blank"><img src="https://img.shields.io/badge/github-24292F?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 
 ## Contact
 
