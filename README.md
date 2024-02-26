@@ -6,7 +6,7 @@
   <summary>Content 📝</summary>
   <ol>
     <li><a href="#objetive-🎯 ">Objetive</a></li>
-    <li><a href="#about-a-proyect-🔎-🔎">About to the proyect</a></li>
+    <li><a href="#about-a-project-🔎-🔎">About to the project</a></li>
     <li><a href="#deploy-🚀">Deploy</a></li>
     <li><a href="#stack">Stack</a></li>
     <li><a href="#local-installation">Installation</a></li>
@@ -23,9 +23,9 @@
 
 ## Objetive 🎯
 
-This proyect it's development in HTML, don't need any configuration.
+This project it's development in HTML, don't need any configuration.
 
-## About a proyect 🔎
+## About a project 🔎
 
 It is a simple web page menu about a coffe shop, the desing its responsive to use on cell phon, computer or tablet.
 
